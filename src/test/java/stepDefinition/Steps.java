@@ -15,6 +15,12 @@ import org.apache.log4j.PropertyConfigurator;
 //import org.openqa.selenium.ie.InternetExplorerDriver;
 //import org.openqa.selenium.remote.RemoteWebDriver;
 //import pageObjects.GoogleHome;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -167,6 +173,7 @@ import java.util.HashMap;
 //
 //    }
 
+        @Feature("Imperial to Metric")
     @Given("print msg")
     public void printMsg() {
         System.out.println("hi");
