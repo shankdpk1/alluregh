@@ -19,6 +19,7 @@ import org.junit.runners.Parameterized;
 //        dryRun = true,
 //                monochrome = true,
                 plugin = {"pretty", "html:target/cucumber-html-report",
+                        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 //                "timeline:test-output-thread/"                     //this gives you timeline of parallel execution in cucumber report
 
 //                tags={"@regression1,@regression11,@regression111"}
