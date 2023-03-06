@@ -40,16 +40,16 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      #      - name: Allure Report action from marketplace
-      #        uses: simple-elf/allure-report-action@master
-      #        if: always()
-      #        id: allure-report
-      #        with:
-      #          allure_results: target/allure-results
-      #          gh_pages: gh-pages
-      #          allure_report: allure-report
-      #          allure_history: allure-history
-      #          keep_reports: 30
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        id: allure-report
+        with:
+          allure_results: allure-results
+          gh_pages: gh-pages
+          allure_report: allure-report
+          allure_history: allure-history
+          keep_reports: 30
 
       - name: Generate files
         run: mkdir artifact && mkdir artifact2 && cd artifact
@@ -64,13 +64,13 @@ jobs:
           PUBLISH_DIR: ./target/htmlreports
 
 
-      - name: Upload Pages artifact
-        uses: ./
-        with:
-          path: artifact
-
-      - name: Download artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: github-pages
-          path: artifact2
+#      - name: Upload Pages artifact
+#        uses: ./
+#        with:
+#          path: artifact
+#
+#      - name: Download artifact
+#        uses: actions/download-artifact@v3
+#        with:
+#          name: github-pages
+#          path: artifact2
