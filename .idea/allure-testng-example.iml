@@ -70,5 +70,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:httpmime:4.5.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.google.code.gson:gson:2.8.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.aventstack:extentreports-cucumber4-adapter:1.0.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.qameta.allure:allure-junit4:LATEST_VERSION" level="project" />
   </component>
 </module>

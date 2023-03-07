@@ -109,15 +109,12 @@
             <version>1.0.7</version>
             <scope>test</scope>
         </dependency>
-    </dependencies>
-
-    <dependencies>
-        <dependency>
-            <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-junit4</artifactId>
-            <version>LATEST_VERSION</version>
-            <scope>test</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>io.qameta.allure</groupId>-->
+<!--            <artifactId>allure-junit4</artifactId>-->
+<!--            <version>LATEST_VERSION</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
