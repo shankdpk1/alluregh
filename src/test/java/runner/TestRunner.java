@@ -14,8 +14,8 @@ import org.junit.runners.Parameterized;
 
 //                features = {"C:\\Users\\shash\\Maven\\MavenCucumberSelenium\\Features"},
 
-                features = {"Features"},
-                glue = "stepDefinition",
+//                features = {"Features"},
+//                glue = "stepDefinition",
 //        dryRun = true,
 //                monochrome = true,
                 plugin = {"pretty", "html:target/cucumber-html-report",
